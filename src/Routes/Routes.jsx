@@ -10,10 +10,6 @@ const router = createBrowserRouter([
     ErrorBoundary: Error,
     Component: Home,
   },
-  {
-    path: "/add-recipe",
-    Component: AddRecipe,
-  },
 ]);
 
 export default router;

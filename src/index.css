@@ -1,11 +1,2 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
-/* text = d5bdaf 
-btn = e3d5ca
-bg = f5ebe0 */
-
-* {
-  background-color: #f5ebe0;
-  max-width: 1440px;
-}
