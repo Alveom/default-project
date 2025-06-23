@@ -1,0 +1,29 @@
+version - 3
+
+- firebase config file with env protection. Developer only have to
+  add their env file and start working. Name as firebase js
+
+- Added AuthProvider and Private Provider
+
+- AuthProvider defaultly has
+  user,
+  setUser, useState
+  createUser, with email and password
+  login, with email and password
+  signout, log out
+  googleLogin, sing you using google
+  loading, for chaking user is login in or not form fire base
+  setLoading, a state if user happen to be online it will set false
+  resetPass, to reset you password if you login in email and password
+  profileUpdate, to update user image name email and password etc
+
+- Added AuthProvider to the root file you can start the boiler plate without getting you
+  project set up in firebase and an env file
+
+- Added new Layout section. It will greatly help in big project that has different layouts  
+  and the root file and change to the Layout section
+
+- Updated the Router section so that it supports the new layout folder and new layouts
+
+- added new Readme file to right down the changes that have been done to the new update
+  version 3
